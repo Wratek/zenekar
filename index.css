@@ -107,7 +107,7 @@ header {
 }
 #newsfeed {
   display: grid;
-  grid-template-rows: 5fr 5fr 1fr;
+  grid-template-rows: 10fr 10fr 1fr;
 }
 nav ul {
   display: grid;
@@ -153,13 +153,39 @@ nav ul li {
 }
 .news {
   overflow: hidden;
+  border-top: solid 1px black; /* ÁTÁLLÍTANI DIZÁJNOSABBRA!! */
+  margin-top: 5px;
 }
+
+.news-first {
+  border-top: none;
+}
+
 .news img {
   width: 150px;
   height: 150px;
   padding: 10px;
   float: left;
 }
+
+.more {
+  float: right;
+  padding: 10px 10px 10px 0;
+}
+
+.date {
+  font-size: 10px;
+  float: right;
+  padding-right: 10px;
+}
+h1 {
+  text-align: center;
+  padding: 10px 0;
+}
+.news section p {
+  padding: 5px;
+}
+
 
 #shop a img {
   width: 100px;
@@ -169,3 +195,4 @@ nav ul li {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
