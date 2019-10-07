@@ -140,3 +140,10 @@ nav {
 }
 
 /*********************************END OF LAYOUT WITH GRID ***********************************/
+
+.news img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  float: left;
+}
